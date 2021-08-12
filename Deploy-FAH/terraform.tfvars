@@ -1,32 +1,32 @@
 // Name of the vSphere server. E.g "vcsa.vmware.local"
-vsphere_server = "vc.local"
+vsphere_server = "vc01.jk.lab"
 
 // User on the vSphere server. E.g "administrator@vsphere.local"
-vsphere_user = "admin@veducate.local"
+vsphere_user = "administrator@vsphere.local"
 
 // Password of the user on the vSphere server. E.g "password"
-vsphere_password = "Password1234!"
+vsphere_password = "!1ynx-Puma12"
 
 // Name of the vSphere data center. E.g "datacenter"
-vsphere_datacenter = "Datacenter"
+vsphere_datacenter = "StMarysRoad"
 
 // Name of the vSphere cluster. E.g "Cluster"
-vsphere_cluster = "Cluster"
+vsphere_cluster = "LAB"
 
 // Name or IP of the vSphere host in the cluster to deploy your VM to. E.g "esxi-01" or "192.168.1.20"
-vsphere_host = "10.0.0.10"
+vsphere_host = "esx01.jk.lab"
 
 // Name of the vSphere data store to use for the VMs. E.g "VSAN"
-vsphere_datastore = "Datastore"
+vsphere_datastore = "Gold"
 
 // Network to connect virtual machine
-vm_network = "VM_Network"
+vm_network = "VM Network"
 
 // Number of instances to deploy
 instance_count = 2
 
-// VM Machine Name (an index will be appended i.e FAH-1, FAH-2,)
-vm_name = "dean-test"
+// VM Machine Name (an index will be appended i.e FAH-1, FAH-2,)12w3
+vm_name = "FAH"
 
 // Number of CPUs to set on deployed Virtual Machines
 num_cpu = 2
@@ -35,13 +35,13 @@ num_cpu = 2
 memory = 4096
 
 // Name of vSphere Resouce Pool to be created. E.g "FAH-VMs"
-vsphere_resource_pool = "dean-test"
+vsphere_resource_pool = "FAH"
 
 // Name of VM folder to be created. E.g "FAH-VMs"
-vsphere_vm_folder = "dean-test"
+vsphere_vm_folder = "FAH"
 
 // Location of OVA file if using a local location - if using remote location, leave this as null
-local_ovf_path = "/home/ubuntu/Deploy-FAH/VMware-Appliance-FaH_1.0.4.ova"
+local_ovf_path = "/Users/w20kilja/Downloads/VMware-Appliance-FaH_1.0.5.ova"
 
 // Location of OVA file if using a remote location - if using local location, leave this as null
 remote_ovf_path = ""

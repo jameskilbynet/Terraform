@@ -1,68 +1,68 @@
 variable "name" {
-  type = "string"
+  type = string
 }
 
 variable "resource_pool_id" {
-  type = "string"
+  type = string
 }
 
 variable "folder" {
-  type = "string"
+  type = string
 }
 
 variable "datastore" {
-  type = "string"
+  type = string
 }
 
 variable "network" {
-  type = "string"
+  type = string
 }
 
 variable "datacenter_id" {
-  type = "string"
+  type = string
 }
 
 variable "vsphere_datacenter" {
-  type = "string"
+  type = string
 }
 
 variable "host" {
-  type = "string"
+  type = string
 }
 
 variable "memory" {
-  type = "string"
+  type = string
   default = 4096
 }
 
 variable "num_cpu" {
-  type = "string"
+  type = string
 }
 
 variable "instance_count" {
-  type = "string"
+  type = string
 }
 
 variable "ssh_enable" {
-  type = "string"
+  type = string
 }
 
 variable "root_password" {
-  type        = "string"
+  type        = string
   default     = "VMware1!"
 }
 
 variable "fah_user" {
-  type = "string"
+  type = string
 }
 
 variable "fah_team" {
-  type        = "string"
+  type        = string
   default     = "52737"
 }
 
 variable "fah_passkey" {
-  type        = "string"
+  type        = string
   default     = ""
 }
 
