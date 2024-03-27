@@ -5,7 +5,7 @@ vsphere_server = "uk-poo-p-vc-1.jameskilby.cloud"
 vsphere_user = "administrator@vsphere.cloud"
 
 // Password of the user on the vSphere server. E.g "password"
-vsphere_password = "!1ynx-Puma12"
+vsphere_password = "XX"
 
 // Name of the vSphere data center. E.g "datacenter"
 vsphere_datacenter = "uk-bhr-p-dc-1"
