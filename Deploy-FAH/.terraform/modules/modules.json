@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"fah_appliance","Source":"./FAH_appliance","Dir":"FAH_appliance"},{"Key":"folder","Source":"./folder","Dir":"folder"},{"Key":"resource_pool","Source":"./resource_pool","Dir":"resource_pool"},{"Key":"","Source":"","Dir":"."}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"fah_appliance","Source":"./FAH_appliance","Dir":"FAH_appliance"},{"Key":"folder","Source":"./folder","Dir":"folder"},{"Key":"resource_pool","Source":"./resource_pool","Dir":"resource_pool"}]}
